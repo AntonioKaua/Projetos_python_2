@@ -20,7 +20,6 @@ automacao-cadastro-produtos/
 │   ├── posicao.py         # Utilitário para capturar coordenadas
 ├── data/
 │   ├── produtos.csv       # Dados dos produtos
-```
 
 Requisitos:
 Python 3.x
@@ -28,11 +27,12 @@ Bibliotecas:
 pyautogui
 pandas
 keyboard
+```
+
 Instalação
 Clone o repositório:
-bash
 
-git clone https://github.com/SEU_USUARIO/automacao-cadastro-produtos.git
+git clone https://github.com/AntonioKaua/automacao-cadastro-produtos.git
 Instale as dependências:
 
 pip install -r requirements.txt
@@ -42,8 +42,10 @@ Atualize os valores de x e y no projeto01.py conforme as posições identificada
 Execução
 Certifique-se de que o arquivo produtos.csv contém os dados no seguinte formato:
 
-codigo	marca	tipo	categoria	preco_unitario	custo	obs
-1001	Marca A	Tipo Exemplo	Categoria	10.99	8.50	Nenhuma obs
+| código | marca    | tipo          | categoria  | preço_unitário | custo | obs          |
+|--------|----------|---------------|------------|----------------|-------|--------------|
+| 1001   | Marca A  | Tipo Exemplo  | Categoria  | 10.99          | 8.50  | Nenhuma obs  |
+
 Execute o script principal:
 
 python scripts/projeto01.py
