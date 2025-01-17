@@ -20,7 +20,9 @@ automacao-cadastro-produtos/
 │   ├── posicao.py         # Utilitário para capturar coordenadas
 ├── data/
 │   ├── produtos.csv       # Dados dos produtos
-Requisitos
+```
+
+Requisitos:
 Python 3.x
 Bibliotecas:
 pyautogui
@@ -29,13 +31,10 @@ keyboard
 Instalação
 Clone o repositório:
 bash
-Copiar
-Editar
+
 git clone https://github.com/SEU_USUARIO/automacao-cadastro-produtos.git
 Instale as dependências:
-bash
-Copiar
-Editar
+
 pip install -r requirements.txt
 Configuração
 Abra o arquivo posicao.py para identificar as coordenadas dos campos no formulário do sistema.
@@ -47,9 +46,6 @@ codigo	marca	tipo	categoria	preco_unitario	custo	obs
 1001	Marca A	Tipo Exemplo	Categoria	10.99	8.50	Nenhuma obs
 Execute o script principal:
 
-bash
-Copiar
-Editar
 python scripts/projeto01.py
 Para interromper a execução, pressione a tecla ESC.
 
